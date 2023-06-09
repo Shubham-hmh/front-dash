@@ -1,0 +1,92 @@
+
+  h2,h5{
+    font-weight: bold;
+    text-align: center;
+  }
+  h3{
+    text-align: center;
+    margin-top: 30px;
+    font-weight: bold;
+  }
+
+  .searchbox {
+    display: flex;
+    align-items: center;
+  }
+  
+  .label1 {
+    flex: 0 0 auto;
+    margin-right: 10px;
+  }
+  
+  .input1 {
+    flex: 1 0 auto;
+    margin-right: 10px;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  
+  /*transporterFormcss*/
+  .container {
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .form-group > div {
+    flex-basis: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .input {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button:hover {
+    background-color: #45a049;
+  }
+  
+  .dashboard {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f5f5f5;
+    color: #337ab7;
+    border: 1px solid #337ab7;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  .btn:hover {
+    background-color: #337ab7;
+    color: white;
+  }
+  
+  .populate{
+    margin-top: 10px;
+    background-color: black;
+    color: white;
+  }

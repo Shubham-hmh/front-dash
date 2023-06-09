@@ -1,0 +1,43 @@
+.message-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .message-table th,
+  .message-table td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .message-table th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  .message-table tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  .selected-row {
+    background-color:gray;
+    color: white;
+  }
+  
+.home{
+  margin: 30px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+ 
+p{
+  font-weight: 300;
+  font-size: 30px;
+  color:black
+}
+
+.head{
+  font-weight: 500;
+  color: blue;
+}

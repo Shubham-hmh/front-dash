@@ -20,7 +20,7 @@ const RegistrationForm = () => {
         }
         try {
             // Make a POST request to the backend API for user registration
-            const response = await axios.post('http://localhost:5000/api/auth/register', userData);
+            const response = await axios.post('https://back-dash.onrender.com/api/auth/register', userData);
             console.log(response.data); // Handle the response data accordingly
             if(response.data ){
                 localStorage.setItem('userType', userType);

@@ -50,7 +50,7 @@ const MessageForm = ({ userType }) => {
       // Make a POST request based on the user type
       let url = '';
       if (userType === 'manufacturer') {
-        url = 'http://localhost:5000/api/manuMessage/manufacturer';
+        url = 'https://back-dash.onrender.com/api/manuMessage/manufacturer';
       }
 
       const response = await axios.post(url, messageData);

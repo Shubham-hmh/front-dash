@@ -22,7 +22,7 @@ const LoginForm = () => {
 
 
     axios
-      .post('http://localhost:5000/api/auth/login', loginData)
+      .post('https://back-dash.onrender.com/api/auth/login', loginData)
       .then((response) => {
         // Assuming the API response contains the user type
         const { userType ,accessToken,address } = response.data;

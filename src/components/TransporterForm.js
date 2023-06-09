@@ -13,7 +13,7 @@ const TransporterForm = ({ userType }) => {
     // fetch messages for showing list 
     const fetchMessages = async () => {
         try {
-            const response = await axios.get('http://localhost:5000/api/manuMessage/messages');
+            const response = await axios.get('https://back-dash.onrender.com/api/manuMessage/messages');
             setMessages(response.data);
         } catch (error) {
             console.log(error);

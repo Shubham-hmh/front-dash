@@ -17,7 +17,7 @@ const ManufacturerDashboard = () => {
 
   const fetchMessages = async () => {
     try {
-      const response = await axios.get('http://localhost:5000/api/transMessage/messages');
+      const response = await axios.get('https://back-dash.onrender.com/api/transMessage/messages');
       setMessages(response.data);
     } catch (error) {
       // Handle error

@@ -39,7 +39,7 @@ const TransporterForm = ({ userType }) => {
             // Make a POST request based on the user type
             let url = '';
             if (userType === 'transporter') {
-                url = 'http://localhost:5000/api/transMessage/transporter';
+                url = 'https://back-dash.onrender.com/api/transMessage/transporter';
             }
 
             const response = await axios.post(url, messageData);
